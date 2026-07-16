@@ -98,7 +98,7 @@
       "attislocal": true,
       "attlen": -1,
       "attmissingval": null,
-      "attname": "hhhhhhhh",
+      "attname": "gggggg",
       "attndims": 0,
       "attnotnull": false,
       "attnum": 5,
@@ -160,7 +160,7 @@
     {
       "access_method": "heap",
       "cluster_index": null,
-      "column_order": "id,customer,status,amount,hhhhhhhh",
+      "column_order": "id,customer,status,amount,gggggg",
       "force_rls": false,
       "kind": "r",
       "name": "orders",
