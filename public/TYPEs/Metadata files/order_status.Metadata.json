@@ -1,0 +1,69 @@
+{
+  "Attributes": [],
+  "Functions": [],
+  "General": [
+    {
+      "alignment": "i",
+      "analyze_func": "-",
+      "array_type": "order_status[]",
+      "base_type": "-",
+      "category": "E",
+      "collation": "-",
+      "default_expr": null,
+      "default_value": null,
+      "input_func": "enum_in",
+      "is_defined": true,
+      "is_not_null": false,
+      "is_preferred": false,
+      "kind": "e",
+      "length": 4,
+      "modin_func": "-",
+      "modout_func": "-",
+      "name": "order_status",
+      "output_func": "enum_out",
+      "owner": "postgres",
+      "passed_by_value": true,
+      "receive_func": "enum_recv",
+      "schema": "public",
+      "send_func": "enum_send",
+      "storage": "p"
+    }
+  ],
+  "Labels": [
+    {
+      "attribute_position": 5.0,
+      "enum_label": "cancelled",
+      "kind": "e",
+      "name": "order_status",
+      "schema": "public"
+    },
+    {
+      "attribute_position": 4.0,
+      "enum_label": "delivered",
+      "kind": "e",
+      "name": "order_status",
+      "schema": "public"
+    },
+    {
+      "attribute_position": 1.0,
+      "enum_label": "pending",
+      "kind": "e",
+      "name": "order_status",
+      "schema": "public"
+    },
+    {
+      "attribute_position": 2.0,
+      "enum_label": "processing",
+      "kind": "e",
+      "name": "order_status",
+      "schema": "public"
+    },
+    {
+      "attribute_position": 3.0,
+      "enum_label": "shipped",
+      "kind": "e",
+      "name": "order_status",
+      "schema": "public"
+    }
+  ]
+}
